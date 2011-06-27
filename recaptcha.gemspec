@@ -13,6 +13,9 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = "recaptcha"
 
+  s.add_dependency "rails", "~> 3.1.0.rc"
+  s.add_development_dependency "rspec", "~> 2.6"
+
   s.files         = `git ls-files`.split("\n")
   # s.test_files    = `git ls-files -- {spec}/*`.split("\n")
   s.require_paths = ["lib"]
