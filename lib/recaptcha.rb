@@ -1,7 +1,7 @@
+require "rails"
 require "recaptcha/controller_mixins"
 require "recaptcha/recaptcha_helper"
 require "recaptcha/validator"
-require "rails"
 
 module Recaptcha
   class Engine < Rails::Engine

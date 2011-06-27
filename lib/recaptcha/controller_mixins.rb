@@ -1,5 +1,3 @@
-require "active_support/concern"
-
 module Recaptcha
   module ControllerMixins
     extend ActiveSupport::Concern
