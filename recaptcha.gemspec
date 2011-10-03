@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = "recaptcha"
 
-  s.add_dependency "rails", "~> 3.1.0.rc"
+  s.add_dependency "rails", "~> 3.1.0"
   s.add_development_dependency "rspec", "~> 2.6"
 
   s.files         = `git ls-files`.split("\n")
